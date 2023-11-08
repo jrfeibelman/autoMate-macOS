@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D0A03B2AFBF2F4008998BB /* autoMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D0A03A2AFBF2F4008998BB /* autoMateApp.swift */; };
+		04D0A03D2AFBF2F4008998BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D0A03C2AFBF2F4008998BB /* ContentView.swift */; };
+		04D0A03F2AFBF2F5008998BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D0A03E2AFBF2F5008998BB /* Assets.xcassets */; };
+		04D0A0422AFBF2F5008998BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D0A0412AFBF2F5008998BB /* Preview Assets.xcassets */; };
+		04D0A04D2AFBF2F5008998BB /* autoMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D0A04C2AFBF2F5008998BB /* autoMateTests.swift */; };
+		04D0A0572AFBF2F5008998BB /* autoMateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D0A0562AFBF2F5008998BB /* autoMateUITests.swift */; };
+		04D0A0592AFBF2F5008998BB /* autoMateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D0A0582AFBF2F5008998BB /* autoMateUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D0A0492AFBF2F5008998BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D0A02F2AFBF2F4008998BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D0A0362AFBF2F4008998BB;
+			remoteInfo = autoMate;
+		};
+		04D0A0532AFBF2F5008998BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D0A02F2AFBF2F4008998BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D0A0362AFBF2F4008998BB;
+			remoteInfo = autoMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D0A0372AFBF2F4008998BB /* autoMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D0A03A2AFBF2F4008998BB /* autoMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoMateApp.swift; sourceTree = "<group>"; };
+		04D0A03C2AFBF2F4008998BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04D0A03E2AFBF2F5008998BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D0A0412AFBF2F5008998BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04D0A0432AFBF2F5008998BB /* autoMate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = autoMate.entitlements; sourceTree = "<group>"; };
+		04D0A0482AFBF2F5008998BB /* autoMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D0A04C2AFBF2F5008998BB /* autoMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoMateTests.swift; sourceTree = "<group>"; };
+		04D0A0522AFBF2F5008998BB /* autoMateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoMateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D0A0562AFBF2F5008998BB /* autoMateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoMateUITests.swift; sourceTree = "<group>"; };
+		04D0A0582AFBF2F5008998BB /* autoMateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoMateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D0A0342AFBF2F4008998BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D0A0452AFBF2F5008998BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D0A04F2AFBF2F5008998BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D0A02E2AFBF2F4008998BB = {
+			isa = PBXGroup;
+			children = (
+				04D0A0392AFBF2F4008998BB /* autoMate */,
+				04D0A04B2AFBF2F5008998BB /* autoMateTests */,
+				04D0A0552AFBF2F5008998BB /* autoMateUITests */,
+				04D0A0382AFBF2F4008998BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D0A0382AFBF2F4008998BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D0A0372AFBF2F4008998BB /* autoMate.app */,
+				04D0A0482AFBF2F5008998BB /* autoMateTests.xctest */,
+				04D0A0522AFBF2F5008998BB /* autoMateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D0A0392AFBF2F4008998BB /* autoMate */ = {
+			isa = PBXGroup;
+			children = (
+				04D0A03A2AFBF2F4008998BB /* autoMateApp.swift */,
+				04D0A03C2AFBF2F4008998BB /* ContentView.swift */,
+				04D0A03E2AFBF2F5008998BB /* Assets.xcassets */,
+				04D0A0432AFBF2F5008998BB /* autoMate.entitlements */,
+				04D0A0402AFBF2F5008998BB /* Preview Content */,
+			);
+			path = autoMate;
+			sourceTree = "<group>";
+		};
+		04D0A0402AFBF2F5008998BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04D0A0412AFBF2F5008998BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04D0A04B2AFBF2F5008998BB /* autoMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D0A04C2AFBF2F5008998BB /* autoMateTests.swift */,
+			);
+			path = autoMateTests;
+			sourceTree = "<group>";
+		};
+		04D0A0552AFBF2F5008998BB /* autoMateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D0A0562AFBF2F5008998BB /* autoMateUITests.swift */,
+				04D0A0582AFBF2F5008998BB /* autoMateUITestsLaunchTests.swift */,
+			);
+			path = autoMateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D0A0362AFBF2F4008998BB /* autoMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D0A05C2AFBF2F5008998BB /* Build configuration list for PBXNativeTarget "autoMate" */;
+			buildPhases = (
+				04D0A0332AFBF2F4008998BB /* Sources */,
+				04D0A0342AFBF2F4008998BB /* Frameworks */,
+				04D0A0352AFBF2F4008998BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = autoMate;
+			productName = autoMate;
+			productReference = 04D0A0372AFBF2F4008998BB /* autoMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D0A0472AFBF2F5008998BB /* autoMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D0A05F2AFBF2F5008998BB /* Build configuration list for PBXNativeTarget "autoMateTests" */;
+			buildPhases = (
+				04D0A0442AFBF2F5008998BB /* Sources */,
+				04D0A0452AFBF2F5008998BB /* Frameworks */,
+				04D0A0462AFBF2F5008998BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D0A04A2AFBF2F5008998BB /* PBXTargetDependency */,
+			);
+			name = autoMateTests;
+			productName = autoMateTests;
+			productReference = 04D0A0482AFBF2F5008998BB /* autoMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D0A0512AFBF2F5008998BB /* autoMateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D0A0622AFBF2F5008998BB /* Build configuration list for PBXNativeTarget "autoMateUITests" */;
+			buildPhases = (
+				04D0A04E2AFBF2F5008998BB /* Sources */,
+				04D0A04F2AFBF2F5008998BB /* Frameworks */,
+				04D0A0502AFBF2F5008998BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D0A0542AFBF2F5008998BB /* PBXTargetDependency */,
+			);
+			name = autoMateUITests;
+			productName = autoMateUITests;
+			productReference = 04D0A0522AFBF2F5008998BB /* autoMateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D0A02F2AFBF2F4008998BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					04D0A0362AFBF2F4008998BB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					04D0A0472AFBF2F5008998BB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 04D0A0362AFBF2F4008998BB;
+					};
+					04D0A0512AFBF2F5008998BB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 04D0A0362AFBF2F4008998BB;
+					};
+				};
+			};
+			buildConfigurationList = 04D0A0322AFBF2F4008998BB /* Build configuration list for PBXProject "autoMate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D0A02E2AFBF2F4008998BB;
+			productRefGroup = 04D0A0382AFBF2F4008998BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D0A0362AFBF2F4008998BB /* autoMate */,
+				04D0A0472AFBF2F5008998BB /* autoMateTests */,
+				04D0A0512AFBF2F5008998BB /* autoMateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D0A0352AFBF2F4008998BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D0A0422AFBF2F5008998BB /* Preview Assets.xcassets in Resources */,
+				04D0A03F2AFBF2F5008998BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D0A0462AFBF2F5008998BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D0A0502AFBF2F5008998BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D0A0332AFBF2F4008998BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D0A03D2AFBF2F4008998BB /* ContentView.swift in Sources */,
+				04D0A03B2AFBF2F4008998BB /* autoMateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D0A0442AFBF2F5008998BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D0A04D2AFBF2F5008998BB /* autoMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D0A04E2AFBF2F5008998BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D0A0592AFBF2F5008998BB /* autoMateUITestsLaunchTests.swift in Sources */,
+				04D0A0572AFBF2F5008998BB /* autoMateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D0A04A2AFBF2F5008998BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D0A0362AFBF2F4008998BB /* autoMate */;
+			targetProxy = 04D0A0492AFBF2F5008998BB /* PBXContainerItemProxy */;
+		};
+		04D0A0542AFBF2F5008998BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D0A0362AFBF2F4008998BB /* autoMate */;
+			targetProxy = 04D0A0532AFBF2F5008998BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D0A05A2AFBF2F5008998BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D0A05B2AFBF2F5008998BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		04D0A05D2AFBF2F5008998BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = autoMate/autoMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"autoMate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feibs.autoMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04D0A05E2AFBF2F5008998BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = autoMate/autoMate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"autoMate/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feibs.autoMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04D0A0602AFBF2F5008998BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feibs.autoMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autoMate";
+			};
+			name = Debug;
+		};
+		04D0A0612AFBF2F5008998BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feibs.autoMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoMate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autoMate";
+			};
+			name = Release;
+		};
+		04D0A0632AFBF2F5008998BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feibs.autoMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = autoMate;
+			};
+			name = Debug;
+		};
+		04D0A0642AFBF2F5008998BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feibs.autoMateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = autoMate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D0A0322AFBF2F4008998BB /* Build configuration list for PBXProject "autoMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D0A05A2AFBF2F5008998BB /* Debug */,
+				04D0A05B2AFBF2F5008998BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D0A05C2AFBF2F5008998BB /* Build configuration list for PBXNativeTarget "autoMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D0A05D2AFBF2F5008998BB /* Debug */,
+				04D0A05E2AFBF2F5008998BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D0A05F2AFBF2F5008998BB /* Build configuration list for PBXNativeTarget "autoMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D0A0602AFBF2F5008998BB /* Debug */,
+				04D0A0612AFBF2F5008998BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D0A0622AFBF2F5008998BB /* Build configuration list for PBXNativeTarget "autoMateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D0A0632AFBF2F5008998BB /* Debug */,
+				04D0A0642AFBF2F5008998BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D0A02F2AFBF2F4008998BB /* Project object */;
+}
